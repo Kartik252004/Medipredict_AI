@@ -7,7 +7,7 @@ Then run:         streamlit run app.py
 import streamlit as st
 import requests
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://medipredict-ai-ryeq.onrender.com"
 
 st.set_page_config(
     page_title="MediPredict AI",
